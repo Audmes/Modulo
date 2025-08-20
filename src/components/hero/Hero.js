@@ -25,7 +25,7 @@
 //     }
 // }
 
-export default function Hero(hero) {
+export default function Hero() {
         const div = document.createElement('div');
         div.setAttribute('class', 'hero');
         // var test = `${hero[0].src}`;
@@ -38,7 +38,7 @@ export default function Hero(hero) {
         // `;
         const content = `
             <div class="bike">
-                <img src="../src/assets/images/${hero[0].src}" alt="${hero[0].alt}" />
+                <img src="../src/assets/images/bike.png" alt="Bike" />
             </div>    
             <div class="column-6">
                 <h1>Modulo</h1>

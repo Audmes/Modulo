@@ -3,12 +3,12 @@ import Hero from '../components/hero/Hero.js';
  * Affichage du Main
  * @returns Main layout component
  */
-const Main = (hero) => {
+const Main = () => {
     const main = document.createElement('main');
     const heroSection = document.createElement('section');
     heroSection.setAttribute('id', 'hero');
 
-    const heroDiv = Hero(hero);
+    const heroDiv = Hero();
 
     heroSection.appendChild(heroDiv);
     

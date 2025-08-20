@@ -2,15 +2,14 @@
  * Affichage de la Navigation
  * @returns Nav component
  */
-const Nav = (menu) => {
-    console.log(menu);
+const Nav = () => {
     const nav = document.createElement('nav');
 
     const content = `
-        <a href="#">${menu[0].name}</a>
-        <a href="#">${menu[1].name}</a>
-        <a href="#">${menu[2].name}</a>
-        <a href="#">${menu[3].name}</a>
+        <a href="#">Accueil</a>
+        <a href="#">A Propos</a>
+        <a href="#">Comment ça marche ?</a>
+        <a href="#">Contact</a>
     `;
 
     nav.innerHTML = content;
