@@ -21,68 +21,10 @@
 			"url": "#"
 		}
 	],
-	"photographers": [
-		{
-			"name": "Audrey Mesnage",
-			"id": 1,
-			"city": "Lyon",
-			"country": "FR",
-			"tagline": "Voir le beau dans le quotidien",
-			"price": 400,
-			"portrait": "MimiKeel.webp"
-		},
-		{
-			"name": "Corinne Mesnage",
-			"id": 2,
-			"city": "Montréal",
-			"country": "Canada",
-			"tagline": "Capturer des compositions complexes",
-			"price": 250,
-			"portrait": "EllieRoseWilkens.webp"
-		}
-	],
 	"hero": [
 		{
 			"src": "bike.png",
 			"alt": "Bike"
-		}
-	],
-	"albums": [
-		{
-			"id": 1,
-			"photographerId": 1,
-			"title": "DESIGN SLIDER",
-			"topic": "ANIMAL",
-			"description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?",
-			"image": "img1.jpg",
-			"alt": "image 1"
-		},
-		{
-			"id": 2,
-			"photographerId": 1,
-			"title": "ALBUM 2",
-			"topic": "ANIMAL",
-			"description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?",
-			"image": "img2.jpg",
-			"alt": "image 2"
-		},
-		{
-			"id": 3,
-			"photographerId": 2,
-			"title": "ALBUM 3",
-			"topic": "ANIMAL",
-			"description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?",
-			"image": "img3.jpg",
-			"alt": "image 3"
-		},
-		{
-			"id": 4,
-			"photographerId": 2,
-			"title": "Album 4",
-			"topic": "ANIMAL",
-			"description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?",
-			"image": "img4.jpg",
-			"alt": "image 4"
 		}
 	],
 	"media": [
