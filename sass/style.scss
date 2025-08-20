@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+@use 'abstracts/colors';
+@use 'abstracts/animations';
+
+// 2. Base stuff
+@use 'base/reset';
+@use 'base/base';
+@use 'base/fonts';
+@use 'base/typography';
+
+// 3. Layout-related sections
+@use 'layout/header';
+@use 'layout/main';
+@use 'layout/footer';
+
+// 4. Components
+@use 'components/hero';
+
+// 5. Page-specific styles
+@use 'pages/home';
+
+// 6. Themes
+@use 'themes/dark';
+@use 'themes/light';
+
+// 7. Responsive
+@use 'responsive/media';

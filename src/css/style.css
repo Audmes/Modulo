@@ -1,0 +1,141 @@
+/**
+* Colors
+**/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --color-primary: #ff0101;
+  --color-secondary: #f7f7f7;
+  --color-tertiary: #ffffff;
+}
+
+/**
+* Animations
+**/
+/* This is a mixin that will be used to create a breakpoint for the desktop. */
+/* Creating a filter that will recolor the image to the specified color. */
+/**
+* Resets
+**/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+}
+
+body {
+  font-family: Arial Black, sans-serif;
+  text-align: center;
+  background: #000;
+  height: 200vh;
+}
+
+/**
+* Basic styles
+**/
+body {
+  max-width: 1440px;
+  min-width: 320px;
+  margin: auto;
+}
+@media (min-width: 769px) {
+  body {
+    max-width: 100%;
+  }
+}
+
+section {
+  width: 100%;
+  margin-top: 5.6875rem;
+  padding-left: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+@media screen and (min-width: 1440px) {
+  section {
+    margin-top: 7rem;
+    padding-left: 4rem;
+  }
+}
+
+/**
+* Basic typography style for copy text
+*/
+/**
+* Helper classes
+**/
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/**
+* Header styles
+**/
+header {
+  position: fixed;
+  z-index: 3;
+}
+
+/**
+* Nav component styles
+**/
+/**
+* Hero component styles
+**/
+#hero .foreground {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+#hero .goonies {
+  position: fixed;
+  margin: 0 auto;
+  top: 26vw;
+  width: 26vw;
+  z-index: 1;
+}
+#hero .background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+/**
+* Home page
+*/
+.home {
+  text-align: center;
+}
+
+.user-switch {
+  margin-right: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.user-switch-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-switch span {
+  color: #ff0101;
+}
+
+/*# sourceMappingURL=style.css.map */

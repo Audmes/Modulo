@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// This file contains all variables.
+// -----------------------------------------------------------------------------
+$breakpoints: (
+    small: 425px,
+    medium: 768px,
+    large: 1024px,
+    desktop: 1440px
+);
+
+$breakpoint-desktop: 769px;
+$breakpoint-tablet: 426px;
+
+$wmin: 320px;
+$wmax: 1440px;

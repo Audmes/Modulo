@@ -1,0 +1,150 @@
+{
+	"menu": [
+		{
+			"name": "Accueil",
+			"title": "Accueil",
+			"url": "#"
+		},
+		{
+			"name": "A Propos",
+			"title": "A Propos",
+			"url": "#"
+		},
+		{
+			"name": "Comment ça marche ?",
+			"title": "Comment ça marche ?",
+			"url": "#"
+		},
+		{
+			"name": "Contact",
+			"title": "Contact",
+			"url": "#"
+		}
+	],
+	"photographers": [
+		{
+			"name": "Audrey Mesnage",
+			"id": 1,
+			"city": "Lyon",
+			"country": "FR",
+			"tagline": "Voir le beau dans le quotidien",
+			"price": 400,
+			"portrait": "MimiKeel.webp"
+		},
+		{
+			"name": "Corinne Mesnage",
+			"id": 2,
+			"city": "Montréal",
+			"country": "Canada",
+			"tagline": "Capturer des compositions complexes",
+			"price": 250,
+			"portrait": "EllieRoseWilkens.webp"
+		}
+	],
+	"hero": [
+		{
+			"src": "bike.png",
+			"alt": "Bike"
+		}
+	],
+	"albums": [
+		{
+			"id": 1,
+			"photographerId": 1,
+			"title": "DESIGN SLIDER",
+			"topic": "ANIMAL",
+			"description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?",
+			"image": "img1.jpg",
+			"alt": "image 1"
+		},
+		{
+			"id": 2,
+			"photographerId": 1,
+			"title": "ALBUM 2",
+			"topic": "ANIMAL",
+			"description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?",
+			"image": "img2.jpg",
+			"alt": "image 2"
+		},
+		{
+			"id": 3,
+			"photographerId": 2,
+			"title": "ALBUM 3",
+			"topic": "ANIMAL",
+			"description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?",
+			"image": "img3.jpg",
+			"alt": "image 3"
+		},
+		{
+			"id": 4,
+			"photographerId": 2,
+			"title": "Album 4",
+			"topic": "ANIMAL",
+			"description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?",
+			"image": "img4.jpg",
+			"alt": "image 4"
+		}
+	],
+	"media": [
+		{
+			"id": 342550,
+			"photographerId": 1,
+			"albumId": 1,
+			"title": "Fashion Yellow Beach",
+			"image": "Fashion_Yellow_Beach.webp",
+			"likes": 62,
+			"date": "2011-12-08",
+			"price": 55
+		},
+		{
+			"id": 8520927,
+			"photographerId": 1,
+			"albumId": 1,
+			"title": "Fashion Urban Jungle",
+			"image": "Fashion_Urban_Jungle.webp",
+			"likes": 11,
+			"date": "2011-11-06",
+			"price": 55
+		},
+		{
+			"id": 9025895,
+			"photographerId": 1,
+			"albumId": 1,
+			"title": "Fashion Pattern on a Pattern",
+			"image": "Fashion_Pattern_on_Pattern.webp",
+			"likes": 72,
+			"date": "2013-08-12",
+			"price": 55
+		},
+		{
+			"id": 9275938,
+			"photographerId": 2,
+			"albumId": 2,
+			"title": "Wedding Gazebo",
+			"image": "Event_WeddingGazebo.webp",
+			"likes": 69,
+			"date": "2018-02-22",
+			"price": 55
+		},
+		{
+			"id": 2053494,
+			"photographerId": 2,
+			"albumId": 2,
+			"title": "Sparkles",
+			"image": "Event_Sparklers.webp",
+			"likes": 2,
+			"date": "2020-05-25",
+			"price": 55
+		},
+		{
+			"id": 8328953,
+			"photographerId": 2,
+			"albumId": 2,
+			"title": "Wooden sculpture of a horse",
+			"video": "Art_Wooden_Horse_Sculpture.mp4",
+			"likes": 24,
+			"date": "2011-12-08",
+			"price": 100
+		  }
+	]
+}

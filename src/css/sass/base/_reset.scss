@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// This file contains reset.
+// -----------------------------------------------------------------------------
+
+/**
+* Resets
+**/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+}
+
+body {
+  font-family: Arial Black, sans-serif;
+  text-align: center;
+  background: #000;
+  height: 200vh;
+}

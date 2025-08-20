@@ -1,0 +1,32 @@
+{
+  "name": "modulo",
+  "version": "0.1.0",
+  "description": "une application dédiée à la création de vélos urbains entièrement personnalisables.",
+  "keywords": [
+    "Js",
+    "Modulo",
+    "Audmes"
+  ],
+  "homepage": "https://github.com/Audmes/Modulo#readme",
+  "bugs": {
+    "url": "https://github.com/Audmes/Modulo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Audmes/Modulo.git"
+  },
+  "license": "ISC",
+  "author": "Audrey Mesnage",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/style.scss:./css/style.css"
+  },
+  "dependencies": {
+    "sass": "^1.90.0"
+  }
+}

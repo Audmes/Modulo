@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the Hero of the site/application.
+// -----------------------------------------------------------------------------
+
+/**
+* Hero component styles
+**/
+#hero {
+    .foreground {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .goonies {
+        position: fixed;
+        margin: 0 auto;
+        top: 26vw;
+        width: 26vw;
+        z-index: 1;
+    }
+    
+    .background {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        // height: calc(100vh);
+    }
+
+}
